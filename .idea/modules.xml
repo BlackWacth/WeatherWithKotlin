@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/WeatherWithKotlin.iml" filepath="$PROJECT_DIR$/.idea/WeatherWithKotlin.iml" />
-      <module fileurl="file://E:\workspace\android-studio\WeatherWithKotlin\WeatherWithKotlin.iml" filepath="E:\workspace\android-studio\WeatherWithKotlin\WeatherWithKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WeatherWithKotlin.iml" filepath="$PROJECT_DIR$/WeatherWithKotlin.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

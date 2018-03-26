@@ -1,19 +1,19 @@
 package com.bruce.weather.data.db
 
 object CityForecastTable {
-    val NAME = "CityForecast"
-    val ID = "_id"
-    val CITY = "city"
-    val COUNTRY = "country"
+    const val NAME = "CityForecast"
+    const val ID = "_id"
+    const val CITY = "city"
+    const val COUNTRY = "country"
 }
 
 object DayForecastTable {
-    val NAME = "DayForecast"
-    val ID = "_id"
-    val DATE = "date"
-    val DESCRIPTION = "description"
-    val HIGH = "high"
-    val LOW = "low"
-    val ICON_URL = "iconUrl"
-    val CITY_ID = "cityId"
+    const val NAME = "DayForecast"
+    const val ID = "_id"
+    const val DATE = "date"
+    const val DESCRIPTION = "description"
+    const val HIGH = "high"
+    const val LOW = "low"
+    const val ICON_URL = "iconUrl"
+    const val CITY_ID = "cityId"
 }

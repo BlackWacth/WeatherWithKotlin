@@ -11,8 +11,8 @@ import org.jetbrains.anko.db.*
 class ForecastDbHelper(ctx: Context = App.instance) : ManagedSQLiteOpenHelper(ctx, ForecastDbHelper.DB_NAME, null, ForecastDbHelper.DB_VERSION) {
 
     companion object {
-        val DB_NAME = "forecast.db"
-        val DB_VERSION = 1
+        const val DB_NAME = "forecast.db"
+        const val DB_VERSION = 1
         val instance by lazy { ForecastDbHelper() }
     }
 

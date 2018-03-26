@@ -21,6 +21,8 @@ class MainActivity : AppCompatActivity() {
 //        val forecastList = findViewById<RecyclerView>(R.id.forecast_list)
 //        forecastList.layoutManager = LinearLayoutManager(this)
 
+
+
         val zipCode = "94043"
         async() {
             val result = RequestForecastCommand(zipCode).execute()
