@@ -1,4 +1,4 @@
-package com.bruce.weather
+package com.bruce.weather.data.server
 
 /**
  * Created by Bruce on 2018/3/21.

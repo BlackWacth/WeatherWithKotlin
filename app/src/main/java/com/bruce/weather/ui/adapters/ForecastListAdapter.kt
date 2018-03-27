@@ -21,7 +21,7 @@ class ForecastListAdapter(private val weekForecast: ForecastList, private val it
         holder.bindForecast(weekForecast[position])
     }
 
-    override fun getItemCount(): Int = weekForecast.size()
+    override fun getItemCount(): Int = weekForecast.size
 
 
     class ViewHolder(view: View, private val itemClick: (Forecast) -> Unit): RecyclerView.ViewHolder(view) {
@@ -30,7 +30,7 @@ class ForecastListAdapter(private val weekForecast: ForecastList, private val it
 
             with(forecast) {
                 Picasso.get().load(iconUrl).into(itemView.icon)
-                itemView.date.text = date
+                itemView.date.text = date.toString()
                 itemView.description.text = description
                 itemView.maxTemperature.text = "$high"
                 itemView.minTemperature.text = "$low"
