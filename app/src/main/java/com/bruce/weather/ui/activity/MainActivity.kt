@@ -8,9 +8,8 @@ import com.bruce.weather.R
 import com.bruce.weather.domain.commands.RequestForecastCommand
 import com.bruce.weather.ui.adapters.ForecastListAdapter
 import kotlinx.android.synthetic.main.activity_main.*
-import org.jetbrains.anko.custom.async
 import org.jetbrains.anko.doAsync
-import org.jetbrains.anko.toast
+import org.jetbrains.anko.startActivity
 import org.jetbrains.anko.uiThread
 
 class MainActivity : AppCompatActivity() {
@@ -28,7 +27,7 @@ class MainActivity : AppCompatActivity() {
             Log.i(javaClass.simpleName, "result = " + result)
             uiThread {
                 forecast_list.adapter = ForecastListAdapter(result) {
-                    toast(it.date.toString())
+                    startActivity<DetailActivity>(DetailActivity.ID to it.id, DetailActivity.CITY_NAME to result.city)
                 }
             }
         }
