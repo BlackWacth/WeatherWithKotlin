@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">WeatherWithKotlin</string>
+
+    <string name="settings">Settings</string>
+
+    <string name="city_zipcode">City ZipCode</string>
 </resources>
