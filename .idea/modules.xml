@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/WeatherWithKotlin.iml" filepath="$PROJECT_DIR$/WeatherWithKotlin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/aac/aac.iml" filepath="$PROJECT_DIR$/aac/aac.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

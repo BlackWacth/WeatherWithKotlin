@@ -38,6 +38,4 @@ class SettingsActivity : AppCompatActivity() {
         super.onBackPressed()
         zipCode = cityCode.text.toString().toLong()
     }
-
-
 }

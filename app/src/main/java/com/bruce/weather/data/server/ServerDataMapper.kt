@@ -23,5 +23,4 @@ class ServerDataMapper {
     fun convertToDomain(zipCode: Long, forecast: ForecastResult) = with(forecast) {
         ForecastList(zipCode, city.name, city.country, convertForecastListToDomain(list))
     }
-
 }
